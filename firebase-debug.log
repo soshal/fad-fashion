@@ -1,0 +1,83 @@
+[debug] [2023-07-31T18:19:13.296Z] ----------------------------------------------------------------------
+[debug] [2023-07-31T18:19:13.299Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\dhira\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --debug
+[debug] [2023-07-31T18:19:13.300Z] CLI Version:   12.4.6
+[debug] [2023-07-31T18:19:13.301Z] Platform:      win32
+[debug] [2023-07-31T18:19:13.301Z] Node Version:  v17.7.1
+[debug] [2023-07-31T18:19:13.302Z] Time:          Mon Jul 31 2023 23:49:13 GMT+0530 (India Standard Time)
+[debug] [2023-07-31T18:19:13.303Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-07-31T18:19:13.442Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-07-31T18:19:13.446Z] > authorizing via signed-in user (dhirajg934@gmail.com)
+[debug] [2023-07-31T18:19:13.446Z] [iam] checking project fad-fashion for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-07-31T18:19:13.452Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/fad-fashion:testIamPermissions [none]
+[debug] [2023-07-31T18:19:13.453Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/fad-fashion:testIamPermissions x-goog-quota-user=projects/fad-fashion
+[debug] [2023-07-31T18:19:13.454Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fad-fashion:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-07-31T18:19:15.165Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/fad-fashion:testIamPermissions 200
+[debug] [2023-07-31T18:19:15.167Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fad-fashion:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-07-31T18:19:15.172Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fad-fashion [none]
+[debug] [2023-07-31T18:19:15.874Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fad-fashion 200
+[debug] [2023-07-31T18:19:15.876Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fad-fashion {"projectId":"fad-fashion","projectNumber":"988274203948","displayName":"FAD-Fashion","name":"projects/fad-fashion","resources":{"hostingSite":"fad-fashion"},"state":"ACTIVE","etag":"1_7780230c-0e8c-4f8a-b5aa-345af05a2e1e"}
+[info] 
+   Thank you for trying our early preview of Next.js support on Firebase Hosting.
+   During the preview, support is best-effort and breaking changes can be expected. Proceed with caution.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/nextjs
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
+[info] - info Creating an optimized production build...
+
+[info] - info Compiled successfully
+
+[info] - info Linting and checking validity of types...
+
+[info] - info Collecting page data...
+
+[info] - info Generating static pages (0/5)
+
+[info] (node:26596) ExperimentalWarning: buffer.Blob is an experimental feature. This feature could change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+[info] - info Generating static pages (1/5)
+
+[info] - info Generating static pages (2/5)
+
+[info] - info Generating static pages (3/5)
+
+[info] TypeError: _toArray is not a function
+    at new FlipState (C:\Users\dhira\Documents\Fad-2\fad\.next\server\chunks\819.js:31680:22)
+    at _parseState (C:\Users\dhira\Documents\Fad-2\fad\.next\server\chunks\819.js:31251:65)
+    at Function.getState (C:\Users\dhira\Documents\Fad-2\fad\.next\server\chunks\819.js:32177:17)
+    at Sliders (C:\Users\dhira\Documents\Fad-2\fad\.next\server\app\page.js:1405:36)
+    at Ue (C:\Users\dhira\Documents\Fad-2\fad\node_modules\next\dist\compiled\react-dom\cjs\react-dom-server.edge.production.min.js:113:273)
+    at Z (C:\Users\dhira\Documents\Fad-2\fad\node_modules\next\dist\compiled\react-dom\cjs\react-dom-server.edge.production.min.js:120:91)
+    at Ve (C:\Users\dhira\Documents\Fad-2\fad\node_modules\next\dist\compiled\react-dom\cjs\react-dom-server.edge.production.min.js:123:155)
+    at Ue (C:\Users\dhira\Documents\Fad-2\fad\node_modules\next\dist\compiled\react-dom\cjs\react-dom-server.edge.production.min.js:114:215)
+    at Z (C:\Users\dhira\Documents\Fad-2\fad\node_modules\next\dist\compiled\react-dom\cjs\react-dom-server.edge.production.min.js:120:91)
+    at Ve (C:\Users\dhira\Documents\Fad-2\fad\node_modules\next\dist\compiled\react-dom\cjs\react-dom-server.edge.production.min.js:123:155)
+
+[info] 
+Error occurred prerendering page "/". Read more: https://nextjs.org/docs/messages/prerender-error
+TypeError: _toArray is not a function
+    at new FlipState (C:\Users\dhira\Documents\Fad-2\fad\.next\server\chunks\819.js:31680:22)
+    at _parseState (C:\Users\dhira\Documents\Fad-2\fad\.next\server\chunks\819.js:31251:65)
+    at Function.getState (C:\Users\dhira\Documents\Fad-2\fad\.next\server\chunks\819.js:32177:17)
+    at Sliders (C:\Users\dhira\Documents\Fad-2\fad\.next\server\app\page.js:1405:36)
+    at Ue (C:\Users\dhira\Documents\Fad-2\fad\node_modules\next\dist\compiled\react-dom\cjs\react-dom-server.edge.production.min.js:113:273)
+    at Z (C:\Users\dhira\Documents\Fad-2\fad\node_modules\next\dist\compiled\react-dom\cjs\react-dom-server.edge.production.min.js:120:91)
+    at Ve (C:\Users\dhira\Documents\Fad-2\fad\node_modules\next\dist\compiled\react-dom\cjs\react-dom-server.edge.production.min.js:123:155)
+    at Ue (C:\Users\dhira\Documents\Fad-2\fad\node_modules\next\dist\compiled\react-dom\cjs\react-dom-server.edge.production.min.js:114:215)
+    at Z (C:\Users\dhira\Documents\Fad-2\fad\node_modules\next\dist\compiled\react-dom\cjs\react-dom-server.edge.production.min.js:120:91)
+    at Ve (C:\Users\dhira\Documents\Fad-2\fad\node_modules\next\dist\compiled\react-dom\cjs\react-dom-server.edge.production.min.js:123:155)
+
+[info] - info Generating static pages (5/5)
+
+[info] 
+> Export encountered errors on following paths:
+	/page: /
+
+[debug] [2023-07-31T18:20:13.009Z] Error: ENOENT: no such file or directory, open 'C:\Users\dhira\Documents\Fad-2\fad\.next\export-marker.json'
+[error] 
+[error] Error: An unexpected error has occurred.

@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "kurdasan";
+  src: url("../Assets/Fonts/KudryashevDisplay-Sans.ttf");
+}
+@font-face {
+  font-family: "roboto";
+  src: url("../Assets/Fonts/roboto-regular.ttf");
+}
+@font-face {
+  font-family: "kd";
+  src: url("../Assets/Fonts/fontspring-demo-kdp45.otf");
+}
+@font-face {
+  font-family: "kurdasan-heading";
+  src: url("../Assets/Fonts/KudryashevHeadline-Sans.ttf");
+}
+@font-face {
+  font-family: "bulleto";
+  src: url("../Assets/Fonts/Bulletto\ Killa.ttf");
+}
+@font-face {
+  font-family: "tenon-mid";
+  src: url("../Assets/Fonts/Fontspring-DEMO-tenon-medium-2.otf");
+}
+@font-face {
+  font-family: "tenon";
+  src: url("../Assets/Fonts/Fontspring-DEMO-tenon-regular-2.otf");
+}
+@font-face {
+  font-family: "tenon-light";
+  src: url("../Assets/Fonts/Fontspring-DEMO-tenon-light-2.otf");
+}
+@font-face {
+  font-family: "tenon-bold";
+  src: url("../Assets/Fonts/Fontspring-DEMO-tenon-xbold-2.otf");
+}
+@font-face {
+  font-family: "kurdasan-display";
+  src: url("../Assets/Fonts/KudryashevDisplay-Sans.woff");
+}
+
+html {
+  font-size: 62.5%;
+  background: #101010;
+  color: #eee;
+  font-family: 'roboto';
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: transparent;
+  cursor: grab;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
