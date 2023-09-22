@@ -329,8 +329,7 @@ function Form() {
         <div onClick={handleMute} className="content">
           <h1>Stay Updated, Stay Tuned.</h1>
           <p>
-            Subscribe to our newsletter to get the latest updates on our
-            products and services.
+            
           </p>
         </div>
       </div>

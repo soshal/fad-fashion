@@ -66,7 +66,7 @@ function Images({ imagesRef }) {
           ref={(el) => (imagesRef.current[0] = el)}
           style={{
             backgroundImage:
-              "url(https://images.unsplash.com/photo-1488161628813-04466f872be2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=2000)",
+            "url(https://i.ibb.co/f4bwkYK/sexy1.png)"
           }}
         ></div>
 
@@ -75,7 +75,7 @@ function Images({ imagesRef }) {
           ref={(el) => (imagesRef.current[1] = el)}
           style={{
             backgroundImage:
-              "url(https://images.unsplash.com/photo-1627577279474-b87fe8490617?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1949&q=2000)",
+             "url(https://i.ibb.co/F4ySbh7/sexy2.png)"
           }}
         ></div>
 
@@ -84,7 +84,7 @@ function Images({ imagesRef }) {
           ref={(el) => (imagesRef.current[2] = el)}
           style={{
             backgroundImage:
-              "url(https://images.unsplash.com/photo-1619789332426-00fc137633d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=2000)",
+              "url(https://i.ibb.co/TwXtfFh/sexy3.png)",
           }}
         ></div>
 
@@ -93,7 +93,7 @@ function Images({ imagesRef }) {
           ref={(el) => (imagesRef.current[3] = el)}
           style={{
             backgroundImage:
-              "url(https://images.unsplash.com/photo-1617137968427-85924c800a22?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=2000)",
+              "url(https://i.ibb.co/7y9jqLM/sexy4.png)",
           }}
         ></div>
         <div
@@ -101,7 +101,7 @@ function Images({ imagesRef }) {
           ref={(el) => (imagesRef.current[4] = el)}
           style={{
             backgroundImage:
-              "url(https://images.unsplash.com/photo-1622281587418-f2f4fc06ae7a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=2000)",
+            "url(https://i.ibb.co/y6zjNJ7/sexy5.png)",
           }}
         ></div>
 
@@ -110,7 +110,7 @@ function Images({ imagesRef }) {
           ref={(el) => (imagesRef.current[5] = el)}
           style={{
             backgroundImage:
-              "url(https://images.unsplash.com/photo-1599146604986-9e3071a41060?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=2000)",
+              "url(https://i.ibb.co/PzNR3qq/sexy6.png)",
           }}
         ></div>
       </div>

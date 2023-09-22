@@ -271,9 +271,9 @@ function Footer() {
       <div className="content">
         <div className="top">
           <div className="left">
-            <Link href="/fadfabsquad">FadFabSquad</Link>
-            <Link href="/about">About Us</Link>
-            <Link href="/howfadworks">How Fad Works?</Link>
+           <Link href="/fadfabsquad"></Link>
+            <Link href="/about"></Link>
+            <Link href="/howfadworks"></Link>
           </div>
           <div onClick={scrollToTop} className="right">
             <KeyboardDoubleArrowUpIcon
@@ -299,7 +299,7 @@ function Footer() {
             <div className="bottom">
               <Link href="mailto:dhirajg934@gmail.com">
                 {" "}
-                <p>fad@gmail.com </p>
+                <p>businessteamfad@gmail.com </p>
               </Link>
 
               <Link href="tel:+919904392992">

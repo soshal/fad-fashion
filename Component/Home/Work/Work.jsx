@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import React from "react";
 import styled from "styled-components";
-import img1 from "@/Assets/Images/fad-workimg1.png";
+import img1 from "@/Assets/Images/whitechick.png";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -128,17 +128,7 @@ const WorkContainer = styled.div`
         border-radius: 30px;
       }
 
-      .top {
-        border: none !important;
-        .community-heading {
-          font-size: 4rem;
-          font-weight: 300;
-          text-align: center;
-          margin: 0 auto;
-          color: #ff005c;
-          font-family: "kurdasan";
-        }
-      }
+      
 
       .bottom {
         display: flex;
@@ -329,22 +319,12 @@ function Work() {
       >
         <Image src={img1} alt="How Fad works" />
 
-        <button className="button">
-          {" "}
-          <Link href="howfadworks">know more</Link>
-        </button>
+        
       </motion.div>
       <div className="right">
         <div className="top">
           <div className="top">
-            <motion.h1
-              variants={variants}
-              initial="hidden"
-              whileInView="visible"
-              className="community-heading"
-            >
-              Community
-            </motion.h1>
+            
           </div>
           <div className="bottom">
             <motion.div
@@ -352,34 +332,38 @@ function Work() {
               initial="hidden"
               whileInView="visible"
               className="left"
-            >
-              <h1>Join the Vibrant Fashion Community</h1>
-              <p>
+            ><h1>Join the Vibrant Fashion Community</h1>
+            <p>
                 Connect with like-minded fashion enthusiasts in our exclusive
                 community. Share ideas, experiences, and trends that inspire.
                 Engage in exciting activities curated for the community members,
                 from collaborative challenges to interactive discussions.
-              </p>
+            </p>
+
+              
+              
+              
             </motion.div>
             <motion.div
               variants={variants}
               initial="hidden"
               whileInView="visible"
               className="right"
-            >
+            > <h1>Community Battles: A Showdown of Styles</h1>
+            
+
+            <p>
+                Step into the spotlight with our Community Battles. Showcase
+                your unique style, compete with fellow fashion lovers, and get a
+                chance to win amazing rewards. It's your chance to make a mark
+                and be celebrated for your fashion flair.
+              </p>
               
               
               
               
               
-              <h1>Tier System</h1>
-              <p>
-              Transform your passion into influence and recognition. As you grow
-              with Fad, you'll unlock exclusive tiers that come with a range of
-              perks and rewards. From forming a close-knit Influencer's
-              Community to seizing monetization opportunities, your journey is
-              about to take off.
-            </p>
+              
               
               
             </motion.div>
@@ -391,15 +375,13 @@ function Work() {
             initial="hidden"
             whileInView="visible"
             className="left"
-          > <h1>Community Battles: A Showdown of Styles</h1>
-            
-
-            <p>
-                Step into the spotlight with our Community Battles. Showcase
-                your unique style, compete with fellow fashion lovers, and get a
-                chance to win amazing rewards. It's your chance to make a mark
-                and be celebrated for your fashion flair.
-              </p>
+          > <h1>Become an Influencer</h1>
+          <p>
+          Transform your passion into influence. Our innovative tier system
+          rewards your growth, giving you exclusive benefits and recognition
+          within the fashion community.
+        </p> 
+          
             
           </motion.div>
           <motion.div
@@ -408,12 +390,15 @@ function Work() {
             whileInView="visible"
             className="right"
           >
-            <h1>Become an Influencer</h1>
-            <p>
-              Transform your passion into influence. Our innovative tier system
-              rewards your growth, giving you exclusive benefits and recognition
-              within the fashion community.
+            <h1>Tier System</h1>
+              <p>
+              Transform your passion into influence and recognition. As you grow
+              with Fad, you'll unlock exclusive tiers that come with a range of
+              perks and rewards. From forming a close-knit Influencer's
+              Community to seizing monetization opportunities, your journey is
+              about to take off.
             </p>
+            
           </motion.div>
         </div>
       </div>

@@ -5,9 +5,9 @@ import styled from "styled-components";
 import { gsap } from "gsap";
 import { Flip } from "gsap/Flip";
 import WideButton from "@/Component/Animation/Buttons/WideButton";
-import img1 from "@/Assets/Images/slider-img1.png";
-import img2 from "@/Assets/Images/img2.png";
-import img3 from "@/Assets/Images/img3.png";
+import img1 from "@/Assets/Images/chuche1.png";
+import img2 from "@/Assets/Images/lauda2.png";
+import img3 from "@/Assets/Images/lauda4.png";
 import Image from "next/image";
 import { motion } from "framer-motion";
 

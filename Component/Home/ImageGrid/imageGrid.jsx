@@ -349,7 +349,7 @@ const ImageGrid = () => {
 
   return (
     <>
-      <p className="click-title"> *click on the image</p>
+      <p className="click-title"> </p>
       <main className="main">
         <Images imagesRef={imagesRef} />
         <div className="intro-title">

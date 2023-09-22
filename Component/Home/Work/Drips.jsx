@@ -1,5 +1,5 @@
 import React from "react";
-import img2 from "@/Assets/Images/fad-workimg2.png";
+import img2 from "@/Assets/Images/gfgg.png";
 import Image from "next/image";
 import styled from "styled-components";
 import { motion } from "framer-motion";

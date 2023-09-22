@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import EastIcon from "@mui/icons-material/East";
 import Link from "next/link";
 
+
 const AppContainer = styled.div`
   width: 100%;
   height: 100vh;
@@ -299,6 +300,7 @@ function Hero() {
           muted
           playsInline
           ref={videoRef}
+         
           src="https://res.cloudinary.com/divbobkmd/video/upload/v1690745994/fad-reel-2_AdobeExpress_simbrc.mp4"
           className="bgvideo"
         />

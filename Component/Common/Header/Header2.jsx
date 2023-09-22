@@ -120,13 +120,13 @@ function Header2() {
       </LeftContainer>
       <RightContainer>
         <Link className="a" href="/">
-          Home
+          
         </Link>
         <Link className="a" href="/about">
-          what is FAD?
+          
         </Link>
         <Link className="a" href="/fadfabsquad">
-          Fadfabsquad
+          
         </Link>
       </RightContainer>
     </HeaderContainer>

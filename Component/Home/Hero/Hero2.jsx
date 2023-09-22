@@ -239,30 +239,10 @@ function Hero2() {
           <div className="bottom">
             <div className="bleft">
               <Link href="/howfadworks">
-                <WideButton
-                  text="How FAD works?"
-                  fontsize="1.5rem"
-                  color="#fff"
-                  hoverbg="#ffffff"
-                  bg="#ff005c"
-                  hovercolor="#111"
-                  bordercolor="#ff005c"
-                  mfontsize="1.5rem"
-                  title="Join Fad"
-                  height="4.5rem"
-                  width="15rem"
-                  mwidth="16rem"
-                />
+                
               </Link>
               <Link href="/about">
-                <button className="button">
-                  What is FAD
-                  <ArrowOutwardIcon
-                    style={{
-                      height: "1.5rem",
-                    }}
-                  />
-                </button>
+                
               </Link>
             </div>{" "}
             <div className="bright">
